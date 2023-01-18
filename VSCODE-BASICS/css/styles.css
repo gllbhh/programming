@@ -1,0 +1,278 @@
+@charset "utf-8";
+/*CSS Document*/
+
+body{
+    font-family: 'Montserrat',
+    sans-serif;
+    background-color: #F5F7FA;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54.86px;
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #FFFFFF;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* main content */
+.main-content{
+    padding: 100px 90px;
+    width: calc(100% - 370px);
+}
+
+.main-content-title-h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* about me */
+.about-me {
+    margin: 0 0 40px 0;
+}
+
+.about-me-professoin{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 20px 0;
+}
+
+.about-me-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;    
+    color: #000000;
+    margin: 0 0 25px 0;
+}
+
+.about-me-description{
+    width: 420px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* my projects */
+.my-projects{
+    margin-bottom: 50px;
+    width: 420px;
+}
+
+.projects-list{
+    padding: 0 0 0 17px;
+}
+
+.projects-item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.projects-item-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+
+.projects-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects-bracket{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.fab{
+    color: #FB6D3A;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+/* work experience */
+.work-experience{
+    margin-bottom: 40px;
+}
+
+.work-experience-company-div{
+    margin-bottom: 20px;
+}
+
+.work-experience-company{
+    color: #FB6D3A;
+}
+
+.work-experience-divider{
+    color: #000000;
+}
+
+.work-experience-term{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+.work-experience-title-h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.work-experience-duties-list{
+    padding: 0 0 0 18px;
+}
+.work-experience-link,
+.work-experience-duties-list-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+
+/* education */
+
+.education{
+    margin: 0 0 40px 0;
+}
+
+.university{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 0 0 10px 0;
+}
+
+.speciality{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.education-term {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+.education-divider {
+    color: #000000;
+}
+
+.profile-img {
+    width: 370px;
+}
+
+/* sidebar */
+
+.sidebar{
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+
+.contacts,
+.tech-skills,
+.soft-skills{
+    margin: 50px 0 0 40px;
+}
+
+
+/* contact section */
+.contact-type{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 7px;
+}
+
+.contact-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+/* skills list (tech+soft)*/
+.skills-list{
+    padding: 0 0 0 17px;
+}
+
+.skills-item{
+    color: #FB6D3A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.skills-item-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
