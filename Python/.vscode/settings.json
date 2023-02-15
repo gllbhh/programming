@@ -1,0 +1,14 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\strah\\AppData\\Local\\Programs\\Python\\Python310",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.formatting.autopep8Path": "c:\\users\\strah\\appdata\\local\\programs\\python\\python310\\lib\\site-packages",
+    "python.linting.flake8Enabled": true
+}
